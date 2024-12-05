@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Parcial 1</title>
+</head>
+<body>
+    <nav-bar>
+        <h1 slot="main-title">ShopSmart</h1>
+    </nav-bar>
+
+    <mi-main>
+        <div slot="content">
+            <pagos-user-list api-url="http://localhost:3000/api/pagos-usuarios"></pagos-user-list>
+            <pagos-user-form></pagos-user-form>
+        </div>
+    </mi-main>
+
+    <mi-footer>
+        <p slot="footer-text">© 2024 - ShopSmart</p>
+        <a slot="additional-content">Política de Privacidad</a>
+    </mi-footer>
+
+
+    <script src="/Front/JS/header.js"></script>
+    <script src="/Front/JS/main.js"></script>
+    <script src="/Front/JS/pagos-user-list.js"></script>
+    <script src="/Front/JS/pagos-user-form.js"></script>
+    <script src="/Front/JS/footer.js"></script>
+</body>
+</html>
