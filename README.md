@@ -7,9 +7,7 @@ ShopSmart es una aplicación para gestionar usuarios, métodos de pago y sus rel
 
 ### node index.js
 
-## Instalación y Configuración
-
-### 1. Crear la Base de Datos y Tablas
+## Crear la Base de Datos y Tablas
 
 Accede a **phpMyAdmin** para ejecutar las siguientes consultas SQL:
 
