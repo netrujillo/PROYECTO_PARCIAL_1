@@ -3,6 +3,9 @@
 ShopSmart es una aplicación para gestionar usuarios, métodos de pago y sus relaciones.
 
 ---
+## Iniciar servidor
+
+### node.js
 
 ## Instalación y Configuración
 
@@ -39,19 +42,3 @@ CREATE TABLE pagos_usuarios (
     FOREIGN KEY (id_usuario) REFERENCES usuarios(id_usuario),
     FOREIGN KEY (id_metodo) REFERENCES metodos_pago(id_metodo)
 );
-
----
-
-### 2. Configurar y Conectar el Servidor
-
-1. Abre el archivo `index.js` en el editor de texto de tu preferencia.
-2. Asegúrate de que las credenciales para la conexión a la base de datos coincidan con tu configuración de MySQL. Este es un ejemplo básico:
-
-```javascript
-const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '', // Cambia si tienes una contraseña configurada para MySQL
-  port: 3306,
-  database: 'compras_db',
-});
