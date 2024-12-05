@@ -5,7 +5,7 @@ ShopSmart es una aplicación para gestionar usuarios, métodos de pago y sus rel
 ---
 ## Iniciar servidor
 
-### node.js
+### node index.js
 
 ## Instalación y Configuración
 
